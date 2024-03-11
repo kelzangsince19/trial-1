@@ -24,3 +24,11 @@ while input("do you want to go back? (yes/no): ").lower() == 'yes' :
         print(f"going back to {current_page}")
     else:
         print("N0 previous page available")    
+
+#go forward                
+while input("do you want to go forward? (yes/no): ").lower() == 'yes' :
+    if not forward_history.empty():
+        forward_history.put(current_page)
+        print(f"going forward to {current_page}")
+    else:
+        print("N0 forward page available")    
