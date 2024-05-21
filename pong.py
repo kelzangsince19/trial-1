@@ -11,7 +11,7 @@ class Ball:
     def __init__(self):
         self.x = WIDTH // 2
         self.y = HEIGHT // 2
-        self.speed_x = random.choice ([-4,5])
+        self.speed_x = random.choice ([-3,4])
         self.speed_y = 4
 
 
